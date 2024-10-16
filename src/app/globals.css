@@ -1,27 +1,146 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+*{
+  @apply duration-500 m-0 p-0
+}
+body{
+  @apply font-medium
+}
+.active{
+   @apply text-2xl text-blue-600
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+button{
+  @apply text-xl m-2  rounded-2xl ml-2  
+}
+input{
+  @apply outline-none bg-slate-200 p-2 text-2xl rounded-md m-2  lg:hover:shadow-2xl 
+}
+
+input::placeholder{
+  @apply text-gray-900 
+}
+
+img{
+  user-select: none;
+}
+.hover {
+  position: relative;
+}
+
+.hover::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color:#9333ea  ;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.hover:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+ 
+}
+
+
+.bg-img{
+background-image: url(https://wallpaperaccess.com/full/5483829.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+
+.bg-img2{
+  background-image: url(https://wallpaperaccess.com/full/7127411.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   
+  }
+ 
+.bg-contact{
+  background-image:url( https://i.ibb.co/cCjKVN2/contact-imgs.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+ 
+.bg-about{
+  background-image:url(https://i.ibb.co/QcpV53H/img-about1.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+ 
+.bg-Sustainability{
+  background-image:url(https://i.ibb.co/8NwGQhc/tamamamam.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+ .bg-about-team{
+  background-image:url( https://i.ibb.co/b2qQt6z/taem.jpg );
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+ 
+.bg-coming-soon{
+  background-image:url( https://i.ibb.co/LhtsyTf/soond.jpg );
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ 
+}
+
+
+@keyframes appear-img {
+  from {
+     
+      opacity: 0;
+  }
+  to {
+     
+      opacity: 1;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.img-apear{
+  animation:  appear-img linear;
+  animation-timeline: view();
+  animation-range: entry 7%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+
+@keyframes appear {
+  from {
+      transform:  scale(0);
+      opacity: 0;
+  }
+  to {
+      transform:  scale(1);
+      opacity: 1;
   }
 }
+
+.nice-apear{
+  animation:  appear linear;
+  animation-timeline: view();
+  animation-range: entry 7%;
+}
+ 
