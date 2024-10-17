@@ -2,7 +2,7 @@
 
 import React, { useState , useRef } from 'react';
 import Links from 'next/link'
-import {motion, useScroll} from 'framer-motion'
+ 
 function main() {
 
 //     const [isLoginVisible, setIsLoginVisible] = useState(false);
