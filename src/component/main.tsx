@@ -62,7 +62,7 @@ function main() {
 
    <section id='  ' className='bg-img2 img-apear h-screen w-full my-20'>
     <div className="    flex flex-col justify-center items-center h-screen w-full max-w-6xl  m-auto   ">
-    <h1 className='nice-apear text-4xl lg:text-8xl mb-10 px-6'>Join our community</h1>
+    <h1 className='nice-apear text-5xl lg:text-8xl mb-10 text-center w-full'>Join our community</h1>
     <p className='nice-apear lg:text-2xl'>for more details and updates </p>
    <a href="https://www.instagram.com/"> <button className='nice-apear lg:text-3xl bg-white text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-75 duration-150'>follow</button> </a>
    </div>
@@ -98,8 +98,8 @@ function main() {
    
     <section id='  ' className='bg-coming-soon img-apear   h-screen w-full my-20'>
     <div className="    flex flex-col justify-center items-center h-screen w-full max-w-6xl  m-auto   ">
-    <h1 className=' nice-apear text-5xl lg:text-8xl mb-10'>Whats Next ?</h1>
-    <p className=' nice-apear lg:text-2xl'>We will make an educational platform from the school  </p>
+    <h1 className=' nice-apear text-5xl lg:text-8xl mb-10 text-center w-full '>Whats Next ?</h1>
+    <p className=' nice-apear   flex justify-center lg:text-2xl'>We will make an educational platform from the school  </p>
    {/* <a href="https://www.instagram.com/"> <button className=' bg-white  lg:hover:scale-110 active:scale-75 duration-150'>follow</button> </a> */}
    <Links className=' nice-apear rounded-xl bg-white p-2  lg:text-3xl  mt-10 py-2  px-10 px-10 lg:hover:scale-110 active:scale-75 duration-150' href='/Sustainability'>more details  </Links>
    </div>
