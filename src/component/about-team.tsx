@@ -44,7 +44,7 @@ function about() {
             <a href="https://www.instagram.com/ibrahimwael409/" target="_blank">
               <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt=''/>
             </a>
-            <a href=" https://portfolio-six-dusky-39.vercel.app/ " target="_blank">
+            <a href="https://ibrlolportfoli.vercel.app/ " target="_blank">
               <img className='w-5' src=" https://cdn-icons-png.flaticon.com/128/1324/1324825.png" alt=''/>
             </a>  
           </div>
