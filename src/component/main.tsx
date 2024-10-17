@@ -5,19 +5,13 @@ import Links from 'next/link'
  
 function main() {
 
-//     const [isLoginVisible, setIsLoginVisible] = useState(false);
-//     const ref = useRef<HTMLElement>(null);
-//     const {scrollYProgress} =useScroll( {
-//       target: ref,
-//       offset:[" 1", "1.33 1"],
-
-//     });
+ 
   return (<>
 
   {/* ----------------- start page--------------- */}
     <section id='home '   >
     <div className="  flex flex-col justify-center items-center h-screen w-full max-w-6xl  m-auto ">
-    <h1 className='text-5xl lg:text-8xl mb-10'>  School Community</h1>
+    <h1 className='text-5xl lg:text-8xl mb-10 text-center w-full '>  School Community</h1>
     <p className='flex justify-center lg:text-2xl '> Make your study easy</p>
     {/* <button className=' bg-white text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-75 duration-150'>Shop</button> */}
    </div>
