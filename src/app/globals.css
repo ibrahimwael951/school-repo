@@ -145,13 +145,7 @@ background-repeat: no-repeat;
  
   animation:  appear linear;
   animation-timeline: view();
-<<<<<<< HEAD
   animation-range: entry 
 }
   */
  
-=======
-  animation-range: entry ;
-}
- 
->>>>>>> 4a3e2d4e8d0013bc14577dbd1d0265079cc149d5
