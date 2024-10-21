@@ -3,6 +3,7 @@
 import Header from "@/component/header";
 import  Main  from "@/component/main";
 import  Footer  from "@/component/footer";
+import ScrollToTopButton from "@/component/scrollbutton";
  
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Header/>
       <Main/>
    <Footer/>
+   <ScrollToTopButton/>
+
    
      </>
   );

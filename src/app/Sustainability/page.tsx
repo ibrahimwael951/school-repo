@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '@/component/header'
 import Footer from '@/component/footer'
 import Sustainability from '@/component/Sustainability'
+import ScrollToTopButton from '@/component/scrollbutton'
  
 function page() {
   return (
@@ -10,6 +11,7 @@ function page() {
       <Header/>
      <Sustainability/>  
       <Footer/>
+      <ScrollToTopButton/>
     
     </>
   )

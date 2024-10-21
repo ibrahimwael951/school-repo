@@ -108,6 +108,7 @@ background-repeat: no-repeat;
  
 }
 
+/* 
 
 @keyframes appear-img {
   from {
@@ -121,9 +122,11 @@ background-repeat: no-repeat;
 }
 
 .img-apear{
+ 
+
   animation:  appear-img linear;
   animation-timeline: view();
-  animation-range: entry 7%;
+  animation-range: entry ;
 }
 
 
@@ -138,9 +141,11 @@ background-repeat: no-repeat;
   }
 }
 
-.nice-apear{
+.nice-apear{ 
+ 
   animation:  appear linear;
   animation-timeline: view();
-  animation-range: entry 7%;
+  animation-range: entry 
 }
+  */
  

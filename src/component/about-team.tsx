@@ -1,7 +1,16 @@
-import React from 'react'
+'use client';
+import React , {useEffect} from 'react'
 
-import Links from 'next/link'
+ 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function about() {
+
+  useEffect(()=> {
+    Aos.init();
+  } , [])
+
+  
   return (
    <section id='about' className=' text-center h-fit    ' >
 
@@ -20,14 +29,19 @@ function about() {
  
               <div className=" min-h-20 h-fit w-full flex  flex-wrap justify-center items-center gap-20 my-0 mx-auto ">
 
-      <div className="nice-apear min-h-20 rounded-2xl shadow-2xl lg:shadow-none lg:hover:shadow-2xl p-6    ">
 
+
+      <div data-aos="fade-up" >  
+      <div className="  min-h-20 rounded-2xl shadow-2xl lg:shadow-none lg:hover:shadow-2xl p-6    ">
         <div className="flex flex-col gap-3">
-          <div className="img-wrapper">
+
+          {/*------------- img---------------- */}
+      
            
             <img className="team-img rounded-full w-60 m-auto" src="https://i.ibb.co/NsMnWPd/ibr.jpg" alt='' />
          
           </div>
+          {/* ----------- text ------ */}
           <p className="m-0 text-3xl   text-purple-600">
             Ibrahim Wael   
           </p>
@@ -44,7 +58,7 @@ function about() {
             <a href="https://www.instagram.com/ibrahimwael409/" target="_blank">
               <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt=''/>
             </a>
-            <a href=" https://portfolio-six-dusky-39.vercel.app/ " target="_blank">
+            <a href=" https://ibrlolportfoli.vercel.app/ " target="_blank">
               <img className='w-5' src=" https://cdn-icons-png.flaticon.com/128/1324/1324825.png" alt=''/>
             </a>  
           </div>
@@ -56,11 +70,11 @@ function about() {
 
 
 
-
-      <div className="nice-apear min-h-20 rounded-2xl shadow-2xl lg:shadow-none lg:hover:shadow-2xl p-6   ">
+<div data-aos="fade-up">
+      <div   className="  min-h-20 rounded-2xl shadow-2xl lg:shadow-none lg:hover:shadow-2xl p-6   ">
 
 <div className="flex flex-col gap-3">
-  <div className="img-wrapper">
+ 
     <img className="team-img rounded-full w-60 m-auto" src="https://i.ibb.co/QQfwWDS/ahmad.jpg" alt='' />
  
   </div>
@@ -74,20 +88,20 @@ function about() {
       {/* <a href="http://www.twitter.com/" target="_blank">
       <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg " alt=''/>
     </a> */}
-    <a href="http://www.facebook.com/" target="_blank">
+    <a href="https://www.facebook.com/ahmed.kotp.902266" target="_blank">
       <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg" alt=''/>
     </a>
-    <a href="http://www.instagram.com/" target="_blank">
+    <a href="https://www.instagram.com/ahmed.kotp.902266/" target="_blank">
       <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt=''/>
     </a>
     {/* <a href="http://www.gmail.com/" target="_blank">
       <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg" alt=''/>
     </a>   */}
   </div>
-</div>
+ 
 
 </div> 
-
+</div>
 
       </div>
 
@@ -98,6 +112,7 @@ function about() {
 
 
 
+ 
 
    </section>
   )
