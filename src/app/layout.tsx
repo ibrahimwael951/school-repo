@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "dropshipping",
-  description: "for drop shoping ",
+  title: "school app",
+  description: "for school exams as teatcher set  ",
 };
 
 export default function RootLayout({

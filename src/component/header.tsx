@@ -6,9 +6,12 @@ import React, { useState } from 'react';
 import Links from 'next/link'
 
 function Header() {
+<<<<<<< HEAD
    
 
   // for side bar visible 
+=======
+>>>>>>> 4a3e2d4e8d0013bc14577dbd1d0265079cc149d5
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   const toggleSidebar = () => {
     setIsSidebarVisible(!isSidebarVisible);
@@ -148,4 +151,8 @@ function Header() {
   )
 }
 
+<<<<<<< HEAD
 export default Header
+=======
+export default Header
+>>>>>>> 4a3e2d4e8d0013bc14577dbd1d0265079cc149d5
