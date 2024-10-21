@@ -5,7 +5,7 @@ import React , {useEffect} from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-function About() {
+function AboutTeam() {
 
   useEffect(() => {
     Aos.init();
@@ -119,4 +119,4 @@ function About() {
   )
 }
 
-export default About
+export default AboutTeam

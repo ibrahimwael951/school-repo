@@ -1,7 +1,7 @@
 import React from 'react'
  
 
-function login() {
+function Login() {
   return (
     <section id='login' className='     ' >
 
@@ -51,4 +51,4 @@ function login() {
   )
 }
 
-export default login
+export default Login

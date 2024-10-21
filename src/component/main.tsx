@@ -6,7 +6,7 @@ import React, { useEffect } from 'react';
 import Links from 'next/link'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-function main() {
+function Main() {
 
       useEffect(()=> {
             Aos.init();
@@ -117,4 +117,4 @@ function main() {
   )
 }
 
-export default main
+export default Main
