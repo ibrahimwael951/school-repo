@@ -4,7 +4,7 @@ import React , {useEffect} from 'react'
  
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-function science() {
+function Science() {
     useEffect(()=> {
         Aos.init();
       } , [])
@@ -75,4 +75,4 @@ function science() {
   )
 }
 
-export default science
+export default Science
