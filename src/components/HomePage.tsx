@@ -22,7 +22,7 @@ const main = () => {
         </div>
         <Image
           className="object-cover absolute -z-20 top-0 left-0 w-full h-screen bg-img"
-          src="/home.webp"
+          src="/BG/home.webp"
           alt="homepage"
           width={3000}
           height={3000}
@@ -59,7 +59,7 @@ const main = () => {
       <div className="flex flex-col lg:flex-row-reverse gap-10 items-center justify-center lg:justify-evenly h-screen w-full my-20">
         <Image
           className="object-cover w-5/6 lg:w-2/4 max-w-2xl rounded-xl "
-          src="/join_our_comunity.webp"
+          src="/BG/join_our_comunity.webp"
           alt="join our comunity"
           width={3000}
           height={3000}
@@ -83,7 +83,7 @@ const main = () => {
         <div className="p-10 w-full md:w-96 lg:w-5/12 max-w-2xl">
           <Image
             className="object-cover w-full rounded-2xl -z-10"
-            src="/about-web.webp"
+            src="/BG/about-web.webp"
             alt="about-us"
             width={3000}
             height={3000}
@@ -102,7 +102,7 @@ const main = () => {
         <div className="  p-10 w-full  md:w-96 lg:w-5/12 max-w-2xl ">
           <Image
             className="w-full rounded-2xl"
-            src="/about-us.jpeg"
+            src="/BG/about-us.jpeg"
             alt="about-us"
             width={3000}
             height={3000}
@@ -124,7 +124,7 @@ const main = () => {
       <div className="flex flex-col lg:flex-row gap-10 items-center justify-center lg:justify-evenly h-screen w-full my-20">
         <Image
           className="object-cover w-5/6 lg:w-2/4 max-w-2xl rounded-xl "
-          src="/soon.jpg"
+          src="/BG/soon.jpg"
           alt="soon"
           width={3000}
           height={3000}
