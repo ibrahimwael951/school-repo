@@ -40,7 +40,7 @@ const header = () => {
 
   return (
     <section className=" select-none dark:bg-black bg-white fixed w-full z-30  ">
-      <header className=" overflow-hidden   flex justify-between m-auto   p-2  max-w-6xl">
+      <div className=" overflow-hidden   flex justify-between m-auto   p-2  max-w-6xl">
         {/* -------Logo----------- */}
         <div className="  flex  items-center ">
           <Image
@@ -219,7 +219,7 @@ const header = () => {
           </div>
         </div>
         {/* ----------end of sidebar----------- */}
-      </header>
+      </div>
     </section>
   );
 };
