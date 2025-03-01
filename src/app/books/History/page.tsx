@@ -1,16 +1,13 @@
 import React from 'react'
 
 
-import Header from '@/component/header'
-import History from '@/component/books/History/History'
-import Footer from '@/component/footer'
-import ScrollToTopButton from '@/component/scrollbutton'
+
+import History from '@/components/books/History'
+import ScrollToTopButton from '@/components/scrollbutton'
 function page() {
   return (
   <>
-  <Header/>
   <History/>
-  <Footer/>
   <ScrollToTopButton/>
   </>
   )

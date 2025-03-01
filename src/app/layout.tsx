@@ -1,21 +1,14 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
-
+//components
+import Header from "@/components/Navbar";
+import Footer from "@/components/Footer";
+//shadcn io
+import { ThemeProvider } from "@/components/theme-provider";
 export const metadata: Metadata = {
   title: "school app",
-  description: "for school exams as teatcher set  ",
+  description: "for school exams as teacher set  ",
 };
 
 export default function RootLayout({
@@ -25,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body>
+        <ThemeProvider attribute="class" defaultTheme="system">
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

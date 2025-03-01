@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Ibrahim Wael",
+    "Age": "17",
+    "Gender": "Male",
+    "FaceBook": "https://www.facebook.com/ibrahum.weal/",
+    "Instagram": "https://www.instagram.com/ibrahimwael409/",
+    "Portfolio": "https://ibrlolportfoli.vercel.app/",
+    "job": "Web Developer",
+    "src": "/Images/Ibrahimwael.jpg"
+  },
+
+  {
+    "Name": "Ahmed Kotp",
+    "Age": "16",
+    "Gender": "Male",
+    "FaceBook": "https://www.facebook.com/ahmed.kotp.902266",
+    "Instagram": "https://www.instagram.com/ahmed.kotp.902266/",
+    "Portfolio": "",
+    "job": "writer and Researcher",
+    "src": "/Images/AhmedKotp.jpg"
+  }
+]

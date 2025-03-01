@@ -1,16 +1,12 @@
 import React from 'react'
 
 
-import Header from '@/component/header'
-import Islamic from '@/component/books/Islamic/Islamic'
-import Footer from '@/component/footer'
-import ScrollToTopButton from '@/component/scrollbutton'
+import Islamic from '@/components/books/Islamic'
+import ScrollToTopButton from '@/components/scrollbutton'
 function page() {
   return (
   <>
-  <Header/>
   <Islamic/>
-  <Footer/>
   <ScrollToTopButton/>
   </>
   )

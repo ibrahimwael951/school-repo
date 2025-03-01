@@ -1,15 +1,11 @@
 import React from 'react'
 
-import Header from '@/component/header'
-import Philosophy from '@/component/books/Philosophy/Philosophy'
-import Footer from '@/component/footer'
-import ScrollToTopButton from '@/component/scrollbutton'
+import Philosophy from '@/components/books/Philosophy'
+import ScrollToTopButton from '@/components/scrollbutton'
 function page() {
   return (
   <>
-  <Header/>
   <Philosophy/>
-  <Footer/>
   <ScrollToTopButton/>
   </>
   )

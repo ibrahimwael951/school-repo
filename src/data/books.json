@@ -1,0 +1,283 @@
+{
+  "homepage": [
+    {
+      "Link": "/books/Philosophy",
+      "title": "Philosophy",
+      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "src": "/القوانين.jpg"
+    },
+    {
+      "Link": "/books/History",
+      "title": "History",
+      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "src": "/المماليك.jpeg"
+    },
+    {
+      "Link": "/books/Science",
+      "title": "Science",
+      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "src": "/العلوم.jpeg"
+    },
+    {
+      "Link": "/books/Islamic",
+      "title": "Islamic Religion",
+      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "src": "/رسائل من القرءان.jpeg"
+    }
+  ],
+  "books": [
+    {
+      "title": "جمهورة افلاطون",
+      "description": "",
+      "src": "/books/جمهوريه افلاطون.jpg",
+      "price": "100100 ",
+      "category": "Philosophy"
+    },
+    {
+      "title": "قوانين افلاطون",
+      "description": "",
+      "src": "/books/القوانين.jpg",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "التداوي بالفلسفة",
+      "description": "",
+      "src": "/books/التداوي بالفلسفه.webp",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "مبادئ الفلسفة",
+      "description": "",
+      "src": "/books/مبادء الفلسفه.webp",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "تاريخ الفلسفةاليونانية",
+      "description": "",
+      "src": "/books/تاريخ الفلسفه اليونانيه.webp",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "احوال النفس",
+      "description": "",
+      "src": "/books/احوال النفس.webp",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "فلاسفة الاندلس",
+      "description": "",
+      "src": "/books/فلاسفه الاندلس.webp",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "الاراء و المعتقدات",
+      "description": "",
+      "src": "/books/الاراء و المعتقدات.webp",
+      "price": "100",
+      "category": "Philosophy"
+    },
+    {
+      "title": "WAR AND PEACE",
+      "description": "",
+      "src": "/books/WAR AND PEACE.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "مقدمة ابن خلدون",
+      "description": "",
+      "src": "/books/مقدمة ابن خلدون.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "تاريخ الدولة العثمانية",
+      "description": "",
+      "src": "/books/تاريخ الدولة العثمانية.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "تاريخ الامم الاسلامية",
+      "description": "",
+      "src": "/books/تاريخ الامم الاسلامية.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "تاريخ الطبري",
+      "description": "",
+      "src": "/books/تاريخ الطبري.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "بدايا و نهاية",
+      "description": "",
+      "src": "/books/بدايا و نهاية.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "تاريخ الرومانين",
+      "description": "",
+      "src": "/books/تاريخ الرومانين.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "هارون الراشيد",
+      "description": "",
+      "src": "/books/هارون الراشيد.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "ابراهام لنكون",
+      "description": "",
+      "src": "/books/ابراهام لنكون.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "اساطير اسكندنافية",
+      "description": "",
+      "src": "/books/اساطير اسكندنافية.webp",
+      "price": "100",
+      "category": "History"
+    },
+
+    {
+      "title": "مختصر تاريخ العالم",
+      "description": "",
+      "src": "/books/مختصر تاريخ العالم.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "تاريخ مصر من الفتح العثماني",
+      "description": "",
+      "src": "/books/تاريخ مصر من الفتح العثماني.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "اوروبا تاريخ وجيز",
+      "description": "",
+      "src": "/books/اوروبا تاريخ وجيز.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "روح الثورات و الثورة الفرنسية",
+      "description": "",
+      "src": "/books/روح الثورات و الثورة الفرنسية.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "الحشاشون",
+      "description": "",
+      "src": "/books/الحشاشون.webp",
+      "price": "100",
+      "category": "History"
+    },
+    {
+      "title": "تفسير السمرقندي",
+      "description": "",
+      "src": "/books/تفسير السمرقندي.webp",
+      "price": "100",
+      "category": "Islamic"
+    },
+    {
+      "title": "تفسير ابن كثير",
+      "description": "",
+      "src": "/books/تفسير ابن كثير.webp",
+      "price": "100",
+      "category": "Islamic"
+    },
+    {
+      "title": "تفسير الطبري",
+      "description": "",
+      "src": "/books/تفسير الطبري.webp",
+      "price": "100",
+      "category": "Islamic"
+    },
+    {
+      "title": "الشفا بتعريف حقوق مصطفي",
+      "description": "",
+      "src": "/books/الشفا بتعريف حقوق مصطفي.webp",
+      "price": "100",
+      "category": "Islamic"
+    },
+    {
+      "title": "صحيح مسلم",
+      "description": "",
+      "src": "/books/صحيح مسلم.webp",
+      "price": "100",
+      "category": "Islamic"
+    },
+    {
+      "title": "صحيح البخاري",
+      "description": "",
+      "src": "/books/صحيح البخاري.jpg",
+      "price": "100",
+      "category": "Islamic"
+    },
+    {
+      "title": "فيزياء الكم والمعرفة الانسانية",
+      "description": "",
+      "src": "/books/فيزياء الكم والمعرفة الانسانية.webp",
+      "price": "100",
+      "category": "science"
+    },
+    {
+      "title": "علم الخيال",
+      "description": "",
+      "src": "/books/علم الخيال.png",
+      "price": "100",
+      "category": "science"
+    },
+    {
+      "title": "المادة في حياتنا",
+      "description": "",
+      "src": "/books/المادة في حياتنا.webp",
+      "price": "100",
+      "category": "science"
+    },
+    {
+      "title": "عقلك اله زمن",
+      "description": "",
+      "src": "/books/عقلك اله زمن.webp",
+      "price": "100",
+      "category": "science"
+    },
+    {
+      "title": "علم الخمائر",
+      "description": "",
+      "src": "/books/علم الخمائر.webp",
+      "price": "100",
+      "category": "science"
+    },
+    {
+      "title": "الفيزياء بين البساطة والذهاء",
+      "description": "",
+      "src": "/books/الفيزياء بين البساطة والذهاء.webp",
+      "price": "100",
+      "category": "science"
+    },
+    {
+      "title": "الكيمياء عند العرب",
+      "description": "",
+      "src": "/books/الكيمياء عند العرب.webp",
+      "price": "100",
+      "category": "science"
+    }
+  ]
+}

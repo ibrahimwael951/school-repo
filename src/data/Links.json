@@ -1,0 +1,31 @@
+{
+    "navbar": 
+        {
+            "pc":[
+                {
+                    "title":"Home",
+                    "href":"/" 
+                },
+                {
+                    "title":"Books",
+                    "href":"/#books"
+                },
+                {
+                    "title":"About",
+                    "href":"/about"
+                },
+                {
+                    "title":"Login",
+                    "href":"/login"
+                }
+              
+            ],
+            "mobile":[]
+        }
+     ,
+    "footer":[
+        {
+
+        }
+    ]
+}
