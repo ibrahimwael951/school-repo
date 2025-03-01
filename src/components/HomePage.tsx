@@ -21,7 +21,7 @@ const main = () => {
           {/* <button className=' bg-white text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-75 duration-150'>Shop</button> */}
         </div>
         <Image
-          className="object-cover absolute -z-20 top-0 left-0 w-full h-screen bg-img"
+          className="object-cover absolute -z-20 top-0 left-0 w-full h-screen bg-img select-none"
           src="/BG/home.webp"
           alt="homepage"
           width={3000}
@@ -41,7 +41,7 @@ const main = () => {
             <Links key={index} href={book.Link}>
               <div className="  flex flex-col items-center justify-center cursor-pointer lg:hover:scale-105 2xl:hover:mx-5">
                 <Image
-                  className="w-72 rounded-2xl"
+                  className="w-72 rounded-2xl select-none"
                   src={book.src}
                   alt={book.title}
                   width={3000}
@@ -58,7 +58,7 @@ const main = () => {
 
       <div className="flex flex-col lg:flex-row-reverse gap-10 items-center justify-center lg:justify-evenly h-screen w-full my-20">
         <Image
-          className="object-cover w-5/6 lg:w-2/4 max-w-2xl rounded-xl "
+          className="object-cover w-5/6 lg:w-2/4 max-w-2xl rounded-xl select-none "
           src="/BG/join_our_comunity.webp"
           alt="join our comunity"
           width={3000}
@@ -70,7 +70,7 @@ const main = () => {
           </h1>
           <p className="  lg:text-1xl">for more details and updates </p>
           <a href="https://www.instagram.com/">
-            <button className="  lg:text-3xl bg-purple-600 text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-90 duration-150">
+            <button className="  lg:text-3xl text-white bg-purple-600 text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-90 duration-150">
               follow
             </button>
           </a>
@@ -82,7 +82,7 @@ const main = () => {
       <div className="flex justify-center flex-col md:flex-row items-center gap-10 ">
         <div className="p-10 w-full md:w-96 lg:w-5/12 max-w-2xl">
           <Image
-            className="object-cover w-full rounded-2xl -z-10"
+            className="object-cover w-full rounded-2xl -z-10 select-none"
             src="/BG/about-web.webp"
             alt="about-us"
             width={3000}
@@ -101,7 +101,7 @@ const main = () => {
 
         <div className="  p-10 w-full  md:w-96 lg:w-5/12 max-w-2xl ">
           <Image
-            className="w-full rounded-2xl"
+            className="w-full rounded-2xl select-none"
             src="/BG/about-us.jpeg"
             alt="about-us"
             width={3000}
@@ -123,7 +123,7 @@ const main = () => {
 
       <div className="flex flex-col lg:flex-row gap-10 items-center justify-center lg:justify-evenly h-screen w-full my-20">
         <Image
-          className="object-cover w-5/6 lg:w-2/4 max-w-2xl rounded-xl "
+          className="object-cover w-5/6 lg:w-2/4 max-w-2xl rounded-xl select-none"
           src="/BG/soon.jpg"
           alt="soon"
           width={3000}

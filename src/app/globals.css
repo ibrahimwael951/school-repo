@@ -5,9 +5,7 @@
 * {
   @apply duration-200 selection:bg-purple-700 selection:text-white scroll-smooth;
 }
-Image{
-  @apply select-none;
-}
+ 
 .active {
   @apply text-2xl text-blue-600;
 }
@@ -16,7 +14,7 @@ button {
   @apply text-xl m-2  rounded-2xl ml-2;
 }
 input {
-  @apply outline-none bg-slate-200 p-2 text-2xl rounded-md m-2  lg:hover:shadow-2xl;
+  @apply outline-none placeholder:text-black dark:placeholder:text-white bg-slate-200 dark:bg-neutral-800 dark:text-white dark:focus:bg-neutral-900 p-2 text-2xl rounded-md m-2  lg:hover:shadow-2xl shadow-slate-500 dark:shadow-slate-300;
 }
 
 input::placeholder {
