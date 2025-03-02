@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply duration-200 selection:bg-purple-700 selection:text-white scroll-smooth;
+  @apply  selection:bg-purple-700 selection:text-white scroll-smooth;
 }
  
 .active {

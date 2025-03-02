@@ -20,7 +20,36 @@
                 }
               
             ],
-            "mobile":[]
+            "Sidebar":[
+                {
+                    "title":"Home",
+                    "href":"/#home",
+                    "icon":"IoHomeOutline"
+                },
+                {
+                    "title":"Books",
+                    "href":"/#books",
+                    "icon":"PiBooks"
+
+                },
+                {
+                    "title":"About",
+                    "href":"/about",
+                    "icon":"IoIosInformationCircleOutline"
+
+                },
+                {
+                    "title":"Profile",
+                    "href":"/profile",
+                    "icon":"IoPersonOutline"
+                },
+                {
+                    "title":"Login",
+                    "href":"/login",
+                    "icon":"GiAstronautHelmet"
+
+                }
+            ]
         }
      ,
     "footer":[
