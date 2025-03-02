@@ -8,9 +8,9 @@ import Books from "../data/books.json";
 
 const main = () => {
   return (
-    <section>
+    <section className="bg-white dark:bg-black">
       {/* ----------------- start page--------------- */}
-      <div id="home ">
+      {/* <div id="home ">
         <div className="  flex flex-col justify-center items-center h-screen w-full max-w-6xl  m-auto ">
           <h1 className="text-5xl lg:text-8xl mb-10 text-center w-full ">
             School Community
@@ -18,7 +18,7 @@ const main = () => {
           <p className="flex justify-center lg:text-2xl ">
             Make your study easy
           </p>
-          {/* <button className=' bg-white text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-75 duration-150'>Shop</button> */}
+          <button className=' bg-white text-3xl mt-10 py-2  px-10 lg:hover:scale-110 active:scale-75 duration-150'>Shop</button>
         </div>
         <Image
           className="object-cover absolute -z-20 top-0 left-0 w-full h-screen bg-img select-none"
@@ -27,7 +27,7 @@ const main = () => {
           width={3000}
           height={3000}
         />
-      </div>
+      </div> */}
 
       {/* ------------------product show -------------------- */}
       <div
@@ -41,7 +41,7 @@ const main = () => {
             <Links key={index} href={book.Link}>
               <div className="  flex flex-col items-center justify-center cursor-pointer lg:hover:scale-105 2xl:hover:mx-5">
                 <Image
-                  className="w-72 rounded-2xl select-none"
+                  className="w-72 h-[450px] object-cover rounded-2xl select-none border border-purple-600 "
                   src={book.src}
                   alt={book.title}
                   width={3000}
