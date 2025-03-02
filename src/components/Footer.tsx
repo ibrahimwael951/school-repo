@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const footer = () => {
   return (
     <div>
-      <div className="border-black border-b-2 w-2/3 m-auto my-20"></div>
+      <div className="border-black dark:border-white border-b-2 w-2/3 m-auto my-20"></div>
 
       <section
         id="footer"

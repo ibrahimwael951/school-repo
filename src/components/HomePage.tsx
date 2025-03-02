@@ -39,9 +39,9 @@ const main = () => {
         <div className="  flex flex-col flex-wrap gap-10 justify-center items-center w-full p-10 md:flex-row   ">
           {Books.homepage.map((book, index) => (
             <Links key={index} href={book.Link}>
-              <div className="  flex flex-col items-center justify-center cursor-pointer lg:hover:scale-105 2xl:hover:mx-5">
+              <div className="  flex flex-col items-center justify-center cursor-pointer lg:hover:scale-95 group">
                 <Image
-                  className="w-72 h-[450px] object-cover rounded-2xl select-none border border-purple-600 "
+                  className="w-72 h-[450px] object-cover rounded-2xl select-none shadow-2xl group-hover:shadow-none"
                   src={book.src}
                   alt={book.title}
                   width={3000}
