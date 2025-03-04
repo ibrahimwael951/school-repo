@@ -20,7 +20,7 @@ const main = () => {
             <Links key={index} href={book.Link}>
               <div className="  flex flex-col items-center justify-center cursor-pointer lg:hover:scale-95 group duration-200">
                 <Image
-                  className="w-64 h-[400px] object-cover rounded-2xl select-none shadow-2xl group-hover:shadow-none duration-200"
+                  className="w-64 h-[400px] object-cover rounded-2xl select-none shadow-2xl group-hover:shadow-none hover:ring-purple-600 hover:ring-4 duration-200"
                   src={book.src}
                   alt={book.title}
                   width={3000}
@@ -80,7 +80,7 @@ const main = () => {
 
         <div className="  p-10 w-full  md:w-96 lg:w-5/12 max-w-2xl ">
           <Image
-            className="w-full rounded-2xl select-none"
+            className="w-full object-cover rounded-2xl select-none"
             src="/BG/about-us.jpeg"
             alt="about-us"
             width={3000}

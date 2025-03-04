@@ -1,280 +1,319 @@
 {
   "homepage": [
     {
+      "id": "homepage-1",
       "Link": "/books/Philosophy",
       "title": "Philosophy",
-      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "description": "Philosophy explores fundamental questions about existence, knowledge, and ethics, offering insights into human thought.",
       "src": "/القوانين.jpg"
     },
     {
+      "id": "homepage-2",
       "Link": "/books/History",
       "title": "History",
-      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "description": "History encompasses the study of past events, societies, and cultures, providing a lens to understand our present and future.",
       "src": "/المماليك.jpeg"
     },
     {
+      "id": "homepage-3",
       "Link": "/books/Science",
       "title": "Science",
-      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "description": "Science investigates the natural world through observation and experimentation, driving innovation and discovery.",
       "src": "/العلوم.jpeg"
     },
     {
+      "id": "homepage-4",
       "Link": "/books/Islamic",
       "title": "Islamic Religion",
-      "description": "Philosophy is the study of the fundamental nature of knowledge, reality, and existence. It is",
+      "description": "Islamic studies explore the rich spiritual, cultural, and historical traditions of Islam, shedding light on its enduring impact.",
       "src": "/رسائل من القرءان.jpeg"
     }
   ],
   "books": [
     {
-      "title": "جمهورة افلاطون",
-      "description": "",
+      "id": "1",
+      "title": "Plato's Republic",
+      "description": "An insightful analysis of Plato's seminal work, exploring the ideals of justice, governance, and society as envisioned by one of history's greatest philosophers.",
       "src": "/books/جمهوريه افلاطون.jpg",
-      "price": "100100 ",
+      "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "قوانين افلاطون",
-      "description": "",
+      "id": "2",
+      "title": "Plato's Laws",
+      "description": "An in-depth look into Plato's 'Laws', discussing the practical and theoretical aspects of law and order in ancient society.",
       "src": "/books/القوانين.jpg",
       "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "التداوي بالفلسفة",
-      "description": "",
+      "id": "3",
+      "title": "Philosophical Healing",
+      "description": "A thoughtful exploration of how philosophical principles can be used as a means of healing and self-improvement in daily life.",
       "src": "/books/التداوي بالفلسفه.webp",
       "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "مبادئ الفلسفة",
-      "description": "",
+      "id": "4",
+      "title": "Principles of Philosophy",
+      "description": "A comprehensive guide to the fundamental concepts and theories that form the basis of philosophical thought.",
       "src": "/books/مبادء الفلسفه.webp",
       "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "تاريخ الفلسفةاليونانية",
-      "description": "",
+      "id": "5",
+      "title": "History of Greek Philosophy",
+      "description": "An engaging account of the evolution of Greek philosophy, detailing the contributions of major thinkers and their lasting impact.",
       "src": "/books/تاريخ الفلسفه اليونانيه.webp",
       "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "احوال النفس",
-      "description": "",
+      "id": "6",
+      "title": "States of the Soul",
+      "description": "An exploration of the human psyche and emotions, drawing on philosophical insights to understand our inner world.",
       "src": "/books/احوال النفس.webp",
       "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "فلاسفة الاندلس",
-      "description": "",
+      "id": "7",
+      "title": "Philosophers of Al-Andalus",
+      "description": "A study of the influential philosophers of Andalusia, highlighting their contributions to both Eastern and Western thought.",
       "src": "/books/فلاسفه الاندلس.webp",
       "price": "100",
       "category": "Philosophy"
     },
     {
-      "title": "الاراء و المعتقدات",
-      "description": "",
+      "id": "8",
+      "title": "Opinions and Beliefs",
+      "description": "A reflective discussion on various opinions and beliefs, examining the role of philosophy in shaping personal and societal values.",
       "src": "/books/الاراء و المعتقدات.webp",
       "price": "100",
       "category": "Philosophy"
     },
     {
+      "id": "9",
       "title": "WAR AND PEACE",
-      "description": "",
+      "description": "A monumental historical novel that intertwines personal narratives with the grand tapestry of historical events, offering deep insights into human nature and society.",
       "src": "/books/WAR AND PEACE.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "مقدمة ابن خلدون",
-      "description": "",
+      "id": "10",
+      "title": "Ibn Khaldun's Introduction",
+      "description": "An essential introduction to the groundbreaking work of Ibn Khaldun, exploring the dynamics of history, society, and civilization.",
       "src": "/books/مقدمة ابن خلدون.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "تاريخ الدولة العثمانية",
-      "description": "",
+      "id": "11",
+      "title": "History of the Ottoman Empire",
+      "description": "A comprehensive account of the rise and fall of the Ottoman Empire, detailing its cultural, political, and military impact on the world.",
       "src": "/books/تاريخ الدولة العثمانية.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "تاريخ الامم الاسلامية",
-      "description": "",
+      "id": "12",
+      "title": "History of Islamic Nations",
+      "description": "An extensive overview of the history of Islamic nations, examining the contributions and transformations across centuries.",
       "src": "/books/تاريخ الامم الاسلامية.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "تاريخ الطبري",
-      "description": "",
+      "id": "13",
+      "title": "Al-Tabari's History",
+      "description": "A detailed chronicle of early Islamic history based on the accounts of the renowned historian Al-Tabari.",
       "src": "/books/تاريخ الطبري.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "بدايا و نهاية",
-      "description": "",
+      "id": "14",
+      "title": "Beginnings and Endings",
+      "description": "A narrative exploring the cyclical nature of history, from the origins of civilizations to their eventual decline.",
       "src": "/books/بدايا و نهاية.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "تاريخ الرومانين",
-      "description": "",
+      "id": "15",
+      "title": "History of the Romans",
+      "description": "An insightful exploration of Roman history, charting the evolution of one of the greatest civilizations in human history.",
       "src": "/books/تاريخ الرومانين.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "هارون الراشيد",
-      "description": "",
+      "id": "16",
+      "title": "Harun al-Rashid",
+      "description": "A biography of the famed Abbasid caliph, Harun al-Rashid, and an exploration of his era's cultural and political achievements.",
       "src": "/books/هارون الراشيد.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "ابراهام لنكون",
-      "description": "",
+      "id": "17",
+      "title": "Abraham Lincoln",
+      "description": "A detailed examination of Abraham Lincoln's leadership and legacy, offering insights into his impact on history and society.",
       "src": "/books/ابراهام لنكون.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "اساطير اسكندنافية",
-      "description": "",
+      "id": "18",
+      "title": "Scandinavian Myths",
+      "description": "A fascinating collection of Norse myths that delve into the rich tapestry of Scandinavian folklore and ancient legends.",
       "src": "/books/اساطير اسكندنافية.webp",
       "price": "100",
       "category": "History"
     },
-
     {
-      "title": "مختصر تاريخ العالم",
-      "description": "",
+      "id": "19",
+      "title": "A Brief History of the World",
+      "description": "An accessible overview of world history, providing key insights and narratives that have shaped our global civilization.",
       "src": "/books/مختصر تاريخ العالم.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "تاريخ مصر من الفتح العثماني",
-      "description": "",
+      "id": "20",
+      "title": "History of Egypt from the Ottoman Conquest",
+      "description": "A historical account tracing Egypt's evolution from the Ottoman conquest to modern times, highlighting pivotal moments and cultural shifts.",
       "src": "/books/تاريخ مصر من الفتح العثماني.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "اوروبا تاريخ وجيز",
-      "description": "",
+      "id": "21",
+      "title": "A Concise History of Europe",
+      "description": "A succinct yet comprehensive narrative of Europe's history, covering major events and transformative periods.",
       "src": "/books/اوروبا تاريخ وجيز.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "روح الثورات و الثورة الفرنسية",
-      "description": "",
+      "id": "22",
+      "title": "The Spirit of Revolutions and the French Revolution",
+      "description": "An analytical look into the ideologies and events that sparked revolutions, with a special focus on the transformative French Revolution.",
       "src": "/books/روح الثورات و الثورة الفرنسية.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "الحشاشون",
-      "description": "",
+      "id": "23",
+      "title": "The Assassins",
+      "description": "A gripping historical account of the enigmatic group known as the Assassins, exploring their origins, tactics, and cultural impact.",
       "src": "/books/الحشاشون.webp",
       "price": "100",
       "category": "History"
     },
     {
-      "title": "تفسير السمرقندي",
-      "description": "",
+      "id": "24",
+      "title": "Al-Samarkandi's Commentary",
+      "description": "A scholarly interpretation of the Quran by Al-Samarkandi, offering insights into classical Islamic exegesis and theology.",
       "src": "/books/تفسير السمرقندي.webp",
       "price": "100",
       "category": "Islamic"
     },
     {
-      "title": "تفسير ابن كثير",
-      "description": "",
+      "id": "25",
+      "title": "Ibn Kathir's Commentary",
+      "description": "A detailed commentary on the Quran by Ibn Kathir, providing context, historical background, and interpretative insights.",
       "src": "/books/تفسير ابن كثير.webp",
       "price": "100",
       "category": "Islamic"
     },
     {
-      "title": "تفسير الطبري",
-      "description": "",
+      "id": "26",
+      "title": "Al-Tabari's Tafsir",
+      "description": "One of the earliest and most comprehensive Quranic commentaries, exploring the textual and contextual meanings of the scripture.",
       "src": "/books/تفسير الطبري.webp",
       "price": "100",
       "category": "Islamic"
     },
     {
-      "title": "الشفا بتعريف حقوق مصطفي",
-      "description": "",
+      "id": "27",
+      "title": "Al-Shifa: On the Rights of Mustafa",
+      "description": "A classic work that outlines the rights and attributes of the Prophet Muhammad, blending theology with legal and ethical discussions.",
       "src": "/books/الشفا بتعريف حقوق مصطفي.webp",
       "price": "100",
       "category": "Islamic"
     },
     {
-      "title": "صحيح مسلم",
-      "description": "",
+      "id": "28",
+      "title": "Sahih Muslim",
+      "description": "A revered collection of Hadith, meticulously compiled to provide authentic accounts of the Prophet’s traditions and practices.",
       "src": "/books/صحيح مسلم.webp",
       "price": "100",
       "category": "Islamic"
     },
     {
-      "title": "صحيح البخاري",
-      "description": "",
+      "id": "29",
+      "title": "Sahih al-Bukhari",
+      "description": "The most authentic collection of Hadith, offering a comprehensive record of the Prophet Muhammad’s sayings and actions.",
       "src": "/books/صحيح البخاري.jpg",
       "price": "100",
       "category": "Islamic"
     },
     {
-      "title": "فيزياء الكم والمعرفة الانسانية",
-      "description": "",
+      "id": "30",
+      "title": "Quantum Physics and Human Understanding",
+      "description": "A thought-provoking exploration of quantum physics and its philosophical implications for human understanding of reality.",
       "src": "/books/فيزياء الكم والمعرفة الانسانية.webp",
       "price": "100",
       "category": "science"
     },
     {
-      "title": "علم الخيال",
-      "description": "",
+      "id": "31",
+      "title": "The Science of Imagination",
+      "description": "An innovative examination of the role of imagination in scientific discovery and creative problem-solving.",
       "src": "/books/علم الخيال.png",
       "price": "100",
       "category": "science"
     },
     {
-      "title": "المادة في حياتنا",
-      "description": "",
+      "id": "32",
+      "title": "Matter in Our Lives",
+      "description": "A clear and engaging discussion on the importance of matter and its interactions, emphasizing its role in everyday phenomena.",
       "src": "/books/المادة في حياتنا.webp",
       "price": "100",
       "category": "science"
     },
     {
-      "title": "عقلك اله زمن",
-      "description": "",
+      "id": "33",
+      "title": "Your Timeless Mind",
+      "description": "An exploration of cognitive science that investigates the interplay between time perception, memory, and consciousness.",
       "src": "/books/عقلك اله زمن.webp",
       "price": "100",
       "category": "science"
     },
     {
-      "title": "علم الخمائر",
-      "description": "",
+      "id": "34",
+      "title": "The Science of Yeasts",
+      "description": "A detailed look into the biology and applications of yeasts in science, from fermentation to biotechnological innovations.",
       "src": "/books/علم الخمائر.webp",
       "price": "100",
       "category": "science"
     },
     {
-      "title": "الفيزياء بين البساطة والذهاء",
-      "description": "",
+      "id": "35",
+      "title": "Physics: Between Simplicity and Ingenuity",
+      "description": "A comprehensive overview of physics that balances foundational concepts with insights into its more complex theories.",
       "src": "/books/الفيزياء بين البساطة والذهاء.webp",
       "price": "100",
       "category": "science"
     },
     {
-      "title": "الكيمياء عند العرب",
-      "description": "",
+      "id": "36",
+      "title": "Chemistry in the Arab World",
+      "description": "An exploration of the rich history and contributions of Arab scholars in the field of chemistry, highlighting ancient innovations and discoveries.",
       "src": "/books/الكيمياء عند العرب.webp",
       "price": "100",
       "category": "science"

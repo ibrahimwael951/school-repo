@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 //shadcn io
 import { ThemeProvider } from "@/components/theme-provider";
 export const metadata: Metadata = {
-  title: "school app",
+  title: "School",
   description: "for school exams as teacher set  ",
 };
 

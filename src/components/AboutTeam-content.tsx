@@ -20,7 +20,7 @@ const aboutTeam = () => {
         {TeamMeber.map((member, index) => (
           <div
             key={index}
-            className="min-h-20 rounded-2xl  flex flex-col gap-3 shadow-2xl lg:shadow-none lg:hover:shadow-2xl p-6"
+            className="min-h-20 rounded-2xl  flex flex-col gap-3 shadow-2xl lg:shadow-none lg:hover:shadow-2xl p-6 dark:hover:shadow-neutral-700 duration-200"
           >
             <Image
               className="rounded-full w-60 m-auto"
