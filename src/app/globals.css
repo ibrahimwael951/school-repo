@@ -3,17 +3,28 @@
 @tailwind utilities;
 
 * {
-  @apply  selection:bg-purple-700 selection:text-white scroll-smooth;
+  @apply selection:bg-purple-700 selection:text-white scroll-smooth;
 }
- 
+
 .active {
   @apply text-2xl text-blue-600;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-3xl font-bold dark:text-white text-gray-800;
+}
+p {
+  @apply text-lg font-extralight dark:text-gray-300 text-gray-600;
+}
+body{
+  @apply bg-gray-100 dark:bg-neutral-900 duration-100;
 }
 
 button {
   @apply text-xl m-2  rounded-2xl ml-2;
 }
- 
 
 input::placeholder {
   @apply text-gray-900;
@@ -40,8 +51,6 @@ input::placeholder {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
-
-
 
 @layer base {
   :root {
@@ -98,8 +107,6 @@ input::placeholder {
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {

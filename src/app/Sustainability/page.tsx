@@ -1,16 +1,17 @@
-import React from 'react'
- 
- 
-import Sustainability from '@/components/SustainabilityPage'
-import ScrollToTopButton from '@/components/scrollbutton'
- 
+import React from "react";
+
+import Sustainability from "@/components/Sustainability-content";
+import ScrollToTopButton from "@/components/scrollbutton";
+import Bg from "@/components/bgSustainability";
+
 function page() {
   return (
-    < >
-     <Sustainability/>  
-      <ScrollToTopButton/>
+    <>
+      <Bg />
+      <Sustainability />
+      <ScrollToTopButton />
     </>
-  )
+  );
 }
 
-export default page
+export default page;

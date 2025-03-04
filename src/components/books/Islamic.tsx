@@ -15,10 +15,10 @@ const Islamic = () => {
     .map((book, index) => (
       <div 
         key={index}
-        className="flex flex-col items-center justify-center cursor-pointer lg:hover:scale-105"
+        className="flex flex-col items-center justify-center cursor-pointer lg:hover:scale-105 duration-200"
       >
         <Image 
-          className="object-cover w-[280px] h-[400px] rounded-2xl"
+          className="object-cover w-[280px] h-[400px] rounded-2xl duration-200"
           src={book.src} 
           alt={book.title} 
           width={1000}

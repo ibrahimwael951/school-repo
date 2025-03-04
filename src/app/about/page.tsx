@@ -1,13 +1,13 @@
 import React from 'react'
 
-import About from '@/components/AboutPage'
-import ScrollToTopButton from '@/components/scrollbutton';
+import About from '@/components/About-content'
+import Bg from "@/components/bgAbout"
 
 function about() {
   return (
     <>
+    <Bg/>
     <About/>
-    <ScrollToTopButton/>
     </>
   )
 }

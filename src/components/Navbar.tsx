@@ -6,7 +6,6 @@ import Image from "next/image";
 //react-icons
 import { CiMenuFries } from "react-icons/ci";
 import { IoExitOutline, IoPersonOutline } from "react-icons/io5";
-import { CgProfile } from "react-icons/cg";
 import { IoHomeOutline } from "react-icons/io5";
 import { PiBooks } from "react-icons/pi";
 import { IoIosInformationCircleOutline } from "react-icons/io";
@@ -52,7 +51,7 @@ const header = () => {
     },
   ];
   return (
-    <section className=" select-none dark:bg-black bg-white fixed w-full z-30  ">
+    <section className="select-none fixed w-full z-30 bg-gray-100 dark:bg-neutral-900  duration-100 ">
       <div className=" overflow-hidden   flex justify-between m-auto   p-2  max-w-6xl">
         {/* -------Logo----------- */}
         <div className="  flex  items-center ">
@@ -98,7 +97,7 @@ const header = () => {
           onClick={toggleSidebar}
         />
         <div
-          className={`flex flex-col   fixed top-0 right-0 h-full w-72  bg-white dark:bg-black  transform ${
+          className={`flex flex-col   fixed top-0 right-0 h-full w-72  bg-gray-100 dark:bg-neutral-900  transform ${
             isSidebarVisible ? "translate-x-0" : "translate-x-full"
           }  lg:translate-x-full  text-xl  transition-transform duration-300`}
         >
@@ -123,13 +122,13 @@ const header = () => {
             {sideBar.map((link, index) => (
               <Links
                 key={index}
-                className="text-2xl m-2 w-full hover:pl-4 cursor-pointer text-black dark:text-white duration-200 flex items-center gap-4"
+                className="text-2xl m-2 w-full hover:pl-4 cursor-pointer text-black dark:text-white duration-200 flex items-center gap-4 hover:text-purple-500 dark:hover:text-purple-500 group"
                 href={link.href}
                 onClick={toggleSidebar}
               >
                 {React.createElement(link.icon, {
                   size: 50,
-                  className: "text-black dark:text-white w-8",
+                  className: "group-hover:text-purple-500 text-black dark:text-white w-8",
                 })}
                 
                 {link.title}
