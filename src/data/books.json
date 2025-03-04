@@ -2,28 +2,28 @@
   "homepage": [
     {
       "id": "homepage-1",
-      "Link": "/books/Philosophy",
+      "Link": "Philosophy",
       "title": "Philosophy",
       "description": "Philosophy explores fundamental questions about existence, knowledge, and ethics, offering insights into human thought.",
       "src": "/القوانين.jpg"
     },
     {
       "id": "homepage-2",
-      "Link": "/books/History",
+      "Link": "History",
       "title": "History",
       "description": "History encompasses the study of past events, societies, and cultures, providing a lens to understand our present and future.",
       "src": "/المماليك.jpeg"
     },
     {
       "id": "homepage-3",
-      "Link": "/books/Science",
+      "Link": "Science",
       "title": "Science",
       "description": "Science investigates the natural world through observation and experimentation, driving innovation and discovery.",
       "src": "/العلوم.jpeg"
     },
     {
       "id": "homepage-4",
-      "Link": "/books/Islamic",
+      "Link": "Islamic",
       "title": "Islamic Religion",
       "description": "Islamic studies explore the rich spiritual, cultural, and historical traditions of Islam, shedding light on its enduring impact.",
       "src": "/رسائل من القرءان.jpeg"
@@ -268,7 +268,7 @@
       "description": "A thought-provoking exploration of quantum physics and its philosophical implications for human understanding of reality.",
       "src": "/books/فيزياء الكم والمعرفة الانسانية.webp",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     },
     {
       "id": "31",
@@ -276,7 +276,7 @@
       "description": "An innovative examination of the role of imagination in scientific discovery and creative problem-solving.",
       "src": "/books/علم الخيال.png",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     },
     {
       "id": "32",
@@ -284,23 +284,23 @@
       "description": "A clear and engaging discussion on the importance of matter and its interactions, emphasizing its role in everyday phenomena.",
       "src": "/books/المادة في حياتنا.webp",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     },
     {
       "id": "33",
       "title": "Your Timeless Mind",
-      "description": "An exploration of cognitive science that investigates the interplay between time perception, memory, and consciousness.",
+      "description": "An exploration of cognitive Science that investigates the interplay between time perception, memory, and consciousness.",
       "src": "/books/عقلك اله زمن.webp",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     },
     {
       "id": "34",
       "title": "The Science of Yeasts",
-      "description": "A detailed look into the biology and applications of yeasts in science, from fermentation to biotechnological innovations.",
+      "description": "A detailed look into the biology and applications of yeasts in Science, from fermentation to biotechnological innovations.",
       "src": "/books/علم الخمائر.webp",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     },
     {
       "id": "35",
@@ -308,7 +308,7 @@
       "description": "A comprehensive overview of physics that balances foundational concepts with insights into its more complex theories.",
       "src": "/books/الفيزياء بين البساطة والذهاء.webp",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     },
     {
       "id": "36",
@@ -316,7 +316,7 @@
       "description": "An exploration of the rich history and contributions of Arab scholars in the field of chemistry, highlighting ancient innovations and discoveries.",
       "src": "/books/الكيمياء عند العرب.webp",
       "price": "100",
-      "category": "science"
+      "category": "Science"
     }
   ]
 }

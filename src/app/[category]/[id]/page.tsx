@@ -15,7 +15,7 @@ export default function BookDetails({
         <h1 className="text-purple-500 dark:text-purple-500 text-6xl">404</h1>
         <p className="text-5xl">Book not found!</p>
         <Link
-          href={`/books/${params.category}`}
+          href={`/${params.category}`}
           className="my-10 text-white bg-purple-600 hover:bg-purple-500 rounded-xl py-2 px-4 duration-200"
         >
           goo back
@@ -66,7 +66,7 @@ export default function BookDetails({
             {suggestedBooks.map((suggestedBook) => (
               <Link
                 key={suggestedBook.id}
-                href={`/books/${suggestedBook.category}/${suggestedBook.id}`}
+                href={`/${suggestedBook.category}/${suggestedBook.id}`}
                 className="flex flex-col w-[280px] h-[400px] items-center justify-center cursor-pointer lg:hover:scale-105 duration-200"
               >
                 <Image
