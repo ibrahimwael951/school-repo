@@ -17,7 +17,7 @@ const main = () => {
 
         <div className="  flex flex-col flex-wrap gap-10 justify-center items-center w-full p-10 md:flex-row   ">
           {Books.homepage.map((book, index) => (
-            <Links key={index} href={`/${book.Link}`}>
+            <Links key={index} href={`/books/${book.Link}`}>
               <div className="  flex flex-col items-center justify-center cursor-pointer lg:hover:scale-95 group duration-200">
                 <Image
                   className="w-64 h-[400px] object-cover rounded-2xl select-none shadow-2xl group-hover:shadow-none hover:ring-purple-600 hover:ring-4 duration-200"
