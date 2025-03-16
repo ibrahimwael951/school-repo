@@ -10,7 +10,7 @@ const bgSustainability = () => {
         width={3000}
         height={3000}
       />
-      <h1 className="text-4xl  text-white lg:text-8xl ">Updates Coming Soon</h1>
+      <h1 className="text-4xl  text-white lg:text-8xl ">Updates Coming Soon, stay tuned</h1>
     </section>
   );
 };
